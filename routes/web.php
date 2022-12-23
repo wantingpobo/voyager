@@ -21,3 +21,12 @@ Route::get('/', function () {
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+// Route::get('/menu',function(){
+//     return menu('frontend','bootstrap');
+// });
+
+//用自己的視圖檔
+Route::get('/menu',function(){
+    return menu('frontend','test_menu');
+});

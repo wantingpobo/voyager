@@ -130,7 +130,7 @@ return [
         'navbar_items' => [
 
             '首頁' => [
-                'route'        => 'http://web111b.com:6080/voyager/public',
+                'route'        => '/',
                 'icon_class'   => 'voyager-home',
                 'target_blank' => true,
             ],
@@ -244,13 +244,14 @@ return [
         'allow_delete'        => true,
         'allow_create_folder' => true,
         'allow_rename'        => true,
-        /*'watermark'           => [
+        'watermark'           => [
             'source'         => 'watermark.png',
-            'position'       => 'bottom-left',
+            'position'       => 'bottom-right',
             'x'              => 0,
             'y'              => 0,
-            'size'           => 15,
+            'size'           => 20,
        ],
+       /*
        'thumbnails'          => [
            [
                 'type'  => 'fit',
