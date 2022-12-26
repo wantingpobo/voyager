@@ -30,3 +30,4 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/menu',function(){
     return menu('frontend','test_menu');
 });
+

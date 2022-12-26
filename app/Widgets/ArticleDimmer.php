@@ -34,7 +34,7 @@ class ArticleDimmer extends BaseDimmer
             'text'   => "目前文章為" . $count . "篇",
             'button' => [
                 'text' => "顯示文章",
-                'link' => route('voyager.users.index'),
+                'link' => route('voyager.articles.index'),
             ],
             'image' => voyager_asset('images/widget-backgrounds/04.jpg'),
         ]));

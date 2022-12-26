@@ -246,12 +246,12 @@ return [
         'allow_rename'        => true,
         'watermark'           => [
             'source'         => 'watermark.png',
-            'position'       => 'bottom-right',
+            'position'       => 'center',
             'x'              => 0,
             'y'              => 0,
             'size'           => 20,
        ],
-       /*
+       
        'thumbnails'          => [
            [
                 'type'  => 'fit',
@@ -259,6 +259,6 @@ return [
                 'width' => 500,
                 'height'=> 500
            ],
-       ]*/
+       ]
     ],
 ];
